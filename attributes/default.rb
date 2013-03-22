@@ -24,6 +24,7 @@ default["samba"]["server_string"] = "Samba Server"
 default["samba"]["load_printers"] = "no"
 default["samba"]["passdb_backend"] = "tdbsam"
 default["samba"]["dns_proxy"] = "no"
+default["samba"]["log_level"] = 3
 default["samba"]["security"] = "user"
 default["samba"]["map_to_guest"] = "Bad User"
 default["samba"]["socket_options"] = "TCP_NODELAY"
